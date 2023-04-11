@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[09/29/22]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/11/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
@@ -47,34 +47,28 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn")
-      (Path "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"
-         "SCHEMATIC1")
+      (Path "Design Resources" ".\22-305-0.dsn")
+      (Path "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\marco\documents\data\orcad\capture_lib\approved\regulators.olb")
       (Path "PSpice Resources")
-      (Select "Design Resources"
-         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"
-         "SCHEMATIC1" "MANUAL_MOTOR_INTERFACE"))
+      (Select "Design Resources" ".\22-305-0.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 378 0 911"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1337 24 929")
-        (Scroll "-42 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CONNETTORI")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 320 0 665"))
+      (Tab 0)))
   (PartMRUSelector
+    (LM317D2T
+      (FullPartName "LM317D2T.Normal")
+      (LibraryName
+         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\REGULATORS.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (SN74HCS125PWR
       (FullPartName "SN74HCS125PWR.Normal")
       (LibraryName
