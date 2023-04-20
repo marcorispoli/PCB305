@@ -1,40 +1,183 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/11/23]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/20/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library"
-      (File
-         "c:\users\marco\documents\data\orcad\capture_lib\approved\regulators.olb"
-        (Type "Schematic Library")))
-    ("Allegro Netlist Directory" "allegro")
+    (Folder "Library")
     (File ".\22-305-0.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "D:\UTENTI\00.LAVORI IN CORSO\METALTRONICA\22-305-0\22-305-0.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "FALSE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "FALSE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (Netlist_TAB "3")
+    (LAYOUT_Netlist_File "22-305-0.MNL")
+    (LAYOUT_PCB_Footprint "{PCB Footprint}")
+    (FALSE)
+    (LAYOUT_Units "0")
+    (Display_Online_DRC_Results "FALSE")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
-    (NoModify)
-    (Display_Online_DRC_Results "FALSE")
-    (ANNOTATE_Scope "0")
-    (ANNOTATE_Mode "1")
-    (ANNOTATE_Action "0")
-    (Annotate_Page_Order "0")
-    (ANNOTATE_Reset_References_to_1 "FALSE")
-    (ANNOTATE_No_Page_Number_Change "FALSE")
-    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
-    (ANNOTATE_IncludeNonPrimitive "FALSE")
-    (ANNOTATE_PreserveDesignator "FALSE")
-    (ANNOTATE_PreserveUserEdits "FALSE")
-    (ANNOTATE_Refdes_Control_Required "FALSE")
-    (Update_Instace_for_External_Design "FALSE")
-    (Annotate_type "Default")
-    (width_pages "100")
-    (width_start "80")
-    (width_End "80"))
+    (DRC_View_Output_Type "2")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (FALSE))
   (Folder "Layout")
-  (Folder "Outputs")
+  (Folder "Outputs"
+    (File ".\22-305-0.drc"
+      (Type "Report"))
+    (File ".\22-305-0.mnl"
+      (Type "LAYOUT Netlist File")))
   (Folder "Referenced Projects")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 262 0 911"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1453 24 929")
+        (Scroll "-82 1")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DETECTOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1453 24 929")
+        (Scroll "-82 11")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNETTORI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1453 24 929")
+        (Scroll "-100 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POWER"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1453 24 929")
+        (Scroll "-76 0")
+        (Zoom "108")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "POTTER INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1453 24 929")
+        (Scroll "-100 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "COMPRESSOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1453 24 929")
+        (Scroll "-131 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "COLLI_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1453 24 929")
+        (Scroll "-100 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MANUAL_MOTOR_INTERFACE")))
+  (MPSSessionName "marco")
+  (ISPCBBASICLICENSE "false")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
     (Folder "Model Libraries"
@@ -43,64 +186,4 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
-  (GlobalState
-    (FileView
-      (Path "Design Resources")
-      (Path "Design Resources" ".\22-305-0.dsn")
-      (Path "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1")
-      (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library"
-         "c:\users\marco\documents\data\orcad\capture_lib\approved\regulators.olb")
-      (Path "PSpice Resources")
-      (Select "Design Resources" ".\22-305-0.dsn"))
-    (HierarchyView)
-    (Doc
-      (Type "COrCapturePMDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 320 0 665"))
-      (Tab 0)))
-  (PartMRUSelector
-    (LM317D2T
-      (FullPartName "LM317D2T.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\REGULATORS.OLB")
-      (DeviceIndex "0"))
-    (GND_POWER
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (SN74HCS125PWR
-      (FullPartName "SN74HCS125PWR.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\LOGICS.OLB")
-      (DeviceIndex "0"))
-    (0
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (R-78E5.0-1.0
-      (FullPartName "R-78E5.0-1.0.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\REGULATORS.OLB")
-      (DeviceIndex "0"))
-    (C0603
-      (FullPartName "C0603.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\PASSIVI.OLB")
-      (DeviceIndex "0"))
-    (C0805
-      (FullPartName "C0805.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\PASSIVI.OLB")
-      (DeviceIndex "0"))
-    (L78L05ACUTR
-      (FullPartName "L78L05ACUTR.Normal")
-      (LibraryName
-         "C:\USERS\MARCO\DOCUMENTS\DATA\ORCAD\CAPTURE_LIB\APPROVED\REGULATORS.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-L
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0"))
-    (OFFPAGELEFT-R
-      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
-      (DeviceIndex "0")))
-  (MPSSessionName "marco"))
+  (Folder "Logs"))

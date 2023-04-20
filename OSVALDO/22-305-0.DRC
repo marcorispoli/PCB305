@@ -1,0 +1,28 @@
+Date and Time : 04/13/23 13:26:02
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_HVON 
+                    SCHEMATIC1, DETECTOR_INTERFACE  (167.64, 91.44) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_PREP 
+                    SCHEMATIC1, DETECTOR_INTERFACE  (172.72, 152.40) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_EW 
+                    SCHEMATIC1, DETECTOR_INTERFACE  (170.18, 33.02) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_HV_ON 
+                    SCHEMATIC1, CONNETTORI  (93.98, 40.64) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_DET_PREP 
+                    SCHEMATIC1, CONNETTORI  (93.98, 35.56) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_DETECTOR_EW 
+                    SCHEMATIC1, CONNETTORI  (93.98, 38.10) 
+WARNING(ORCAP-1600): Net has fewer than two connections N3903441 
+                    SCHEMATIC1, CONNETTORI  (228.60, 160.02) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_TILT_UP 
+                    SCHEMATIC1, CONNETTORI  (50.80, 33.02) 
+WARNING(ORCAP-1600): Net has fewer than two connections BHW_TILT_DWN 
+                    SCHEMATIC1, CONNETTORI  (50.80, 35.56) 
+
+Checking For Unconnected Bus Nets
