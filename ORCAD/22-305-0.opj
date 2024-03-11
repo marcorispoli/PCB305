@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[02/05/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/11/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -82,60 +82,21 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\22-305-0.dsn")
-      (Path "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn")
+      (Path "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1" "POWER"))
+      (Select "Design Resources"
+         "c:\users\marco\documents\data\progetti-git\hw\pcb-22-305\orcad\22-305-0.dsn"
+         "SCHEMATIC1" "COLLI_INTERFACE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 0 0 0 200 0 555"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1318 24 929")
-        (Scroll "-32 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "COMPRESSOR_INTERFACE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1318 24 929")
-        (Scroll "-32 -7")
-        (Zoom "104")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "CONNETTORI"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1318 24 929")
-        (Scroll "-15 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "MANUAL_MOTOR_INTERFACE"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1318 24 929")
-        (Scroll "-15 0")
-        (Zoom "107")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "POWER")))
+      (Tab 0)))
   (MPSSessionName "marco")
   (PartMRUSelector)
   (ISPCBBASICLICENSE "false")
