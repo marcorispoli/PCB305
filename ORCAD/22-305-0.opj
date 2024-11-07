@@ -1,6 +1,6 @@
 (ExpressProject ""
   (ProjectVersion "19981106")
-  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[04/18/24]")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[11/07/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -85,7 +85,8 @@
       (Path "Design Resources" ".\22-305-0.dsn")
       (Path "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources" ".\22-305-0.dsn" "SCHEMATIC1"
+         "SLIDE_INTERFACE"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -95,26 +96,84 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1341 24 929")
-        (Scroll "-44 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-75 0")
+        (Zoom "107")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNETTORI"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-92 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
       (Schematic "SCHEMATIC1")
       (Page "POWER"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1341 24 929")
-        (Scroll "-44 -7")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-92 -7")
         (Zoom "104")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\MARCO\DOCUMENTS\DATA\PROGETTI-GIT\HW\PCB-22-305\ORCAD\22-305-0.DSN")
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "MANUAL_MOTOR_INTERFACE")))
-  (MPSSessionName "marco")
+      (Page "POTTER INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-92 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MANUAL_MOTOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-92 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DETECTOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-92 -7")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "COMPRESSOR_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1438 24 929")
+        (Scroll "-123 -8")
+        (Zoom "119")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "COLLI_INTERFACE"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1438 24 929")
+        (Scroll "-104 0")
+        (Zoom "123")
+        (Occurrence "/"))
+      (Path "D:\GIT\HW\PCB305\ORCAD\22-305-0.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "SLIDE_INTERFACE")))
+  (MPSSessionName "user")
   (PartMRUSelector
     (VCC_CIRCLE
       (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
